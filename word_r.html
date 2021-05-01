@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>word game</title>
+        <script src="no_r.js"></script>
+        <link rel="stylesheet" href="no_r.css">
+    </head>
+    <body>
+        <h4 id="player_1_name"></h4><span id="player1_score"></span>
+	<h4 id="player_2_name"></h4><span id="player2_score"></span>
+    <hr>
+    <h1>Welcome to the word game</h1>
+    <hr>
+    <br>
+    <h3 id="que_turn"></h3>
+    <h3 id="ans_turn"></h3>
+    <hr>
+    <br>
+    <div class="container">
+        <center>
+            <h2 style="color: white;">Guess The Word!</h2>
+            <h4 id="player_question"></h4>
+            <h4 id="player_answer"></h4>
+            <div id="output"></div>
+            <br>
+            <br>
+    
+            <label>Send You Word: <b style="color: red">Try putting word which has 5 or more alphabet</b></label>
+            <br>
+            <input id="ans_input" placeholder="Type your Answer" type="text" class="form-control">
+            <br>
+            <button id="sumit_button" type="button" onclick="confirm()" style="width: 30%" class="btn btn-info">Sumit Answer</button>
+            <br>
+    
+        </center>
+    </div>
+    </body>
+
+</html>
